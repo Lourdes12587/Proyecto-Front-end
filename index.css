@@ -1,0 +1,273 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 200px 200px 200px;
+    background-color: black;
+    color:#DDC1BE;
+
+}
+
+.description-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 50%;
+    gap: 40px;
+}
+
+.inicio-img{
+    height: 200px;
+    background-position: center;
+
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./workplace-g540483181_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header::before{
+    content:"";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.bg-dark{
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+}
+
+.btn-btn{
+    background-color: #DDC1BE;
+}
+
+@media(min-width760px){
+    .bg-dark {
+        background-color: transparent!important;
+    }
+}
+
+.text-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 400px 200px 500px;
+    color: black;
+    font-family: "coco";
+}
+
+.img-dog{
+    height: 200px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+/*MODAL*/
+
+.fa-solid{
+    color: #DDC1BE;
+}
+
+.modal-title{
+    color: #DDC1BE;
+}
+.form-label{
+    color: #DDC1BE;
+}
+
+.col-form-label{
+    color: #DDC1BE;
+}
+
+
+/*BANNER*/
+
+.description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 200px 200px 400px 400px;
+
+}
+
+.text-container{
+    width: 200%;
+    gap: 20%;
+}
+
+.text-container img{
+    width: 30%;
+}
+
+.text-container h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.text-container h3{
+    font-size: 2.5em;
+    width: 150%;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/*FORMACION Y EXPERIENCIA*/
+  
+*::selection{
+    background: #DDC1BE;
+    color: #333;
+  }
+
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+  }
+  
+.heading span{
+    color:#DDC1BE;
+}
+  
+.about .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+  }
+  
+.about .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+  
+  }
+  
+.about .box-container .box span{
+    font-size: 1rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+  }
+  
+.about .box-container .box h3{
+    font-size: 1rem;
+    color: #fff;
+    padding-top: 1.5rem;
+  }
+  
+.about .box-container .box p{
+    font-size: 1rem;
+    color: #eee;
+    padding-top: 1rem 0;
+  }
+  
+.about .box-container .box i{
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    background: #DDC1BE;
+  }
+  
+/*PORTFOLIO*/
+
+.portfolio .box-container .box{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+.portfolio .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+/*CONTACTO*/
+
+.form-container{
+    padding-top: 3em;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-bottom: 3em;
+}
+
+.btn{
+    background-color: #DDC1BE;
+}
+
+
+    
+
+  
+  
+  
+  
+  
+  
+  
