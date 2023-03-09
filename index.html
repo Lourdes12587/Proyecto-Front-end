@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Lourdes Ortiz">
     <title>LOURDES ORTIZ</title>
     <link rel="stylesheet" href="./Bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css" />
@@ -16,7 +18,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./ap-logo-tr-light (1).png" class="logo ARGENTINA PROGRAMA" width="100">
+          <img src="./Imagenes/ap-logo-tr-light (1).png" class="logo ARGENTINA PROGRAMA" width="100">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,13 +38,7 @@
               <a href="#contacto" class="nav-link" >CONTACTO</a>
             </li>
             <li class="nav-item">
-              <a href="#"><button class="btn"><i class="fa-brands fa-facebook"></i></button></a>
-              <a href="#"><button class="btn"><i class="fa-brands fa-square-instagram"></i></button></a>
-              <a href="#"><button class="btn"><i class="fa-brands fa-github"></i></button></a>
-              <a href="#"><button class="btn"><i class="fa-brands fa-linkedin"></i></button></a>
-            </li>
-            <li class="nav-item">
-              <i data-bs-toggle="modal" data-bs-target="#logininModal" class="fa-solid fa-user-lock fa-2x"></i>
+              <i data-bs-toggle="modal" data-bs-target="#logininModal"   class="fa-solid fa-user-lock fa-2x"></i>
             </li>
             <!--MODAL-->
             <div class="modal fade" id="logininModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -50,19 +46,20 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">LOG IN</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <span aria-hidden="true">&times;</span>
                   </div>
                   <div class="modal-body">
                     <form>
                       <div class="mb-3">
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
                         <label for="exampleFormControlInput1" class="form-label"> Email </label>
                         <div class="col-sm-10">
                           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@dominio.com">
                         </div>
                       </div>
                       <div class="mb-3">
+                        <i class="fa-sharp fa-solid fa-key"></i>
                         <label for="inputPassword" class="col-sm-2 col-form-label"> Contraseña </label>
                         <div class="col-sm-10">
                           <input type="password" class="form-control" id="inputPassword">
@@ -78,7 +75,7 @@
             </div>
           </ul>
         </div>
-      </div>b
+      </div>
     </nav>
    <!--BANNER-->
     <div class="container-inicio">
@@ -87,114 +84,135 @@
           <h3> Hi,<span> Soy Lu </span></h3>
           <h1>LOURDES ORTIZ</h1>
           <h3>Developer Full Stack</h3>
+          <ul>
+            <li class="nav-item">
+              <a href="#"><button class="btn"><i class="fa-brands fa-facebook"></i></button></a>
+              <a href="#"><button class="btn"><i class="fa-brands fa-square-instagram"></i></button></a>
+              <a href=""><button class="btn"><i class="fa-brands fa-github"></i></button></a>
+              <a href="https://www.linkedin.com/in/lourdes-ortiz-429194213/"><button class="btn"><i class="fa-brands fa-linkedin"></i></button></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </header>
+  <main>
+    <div id="menu" class="fas fa-bars"></div> 
 
-  <div id="menu" class="fas fa-bars"></div> 
+    <!--SOBRE MI-->
+    
+    <img src="./Imagenes/1foto.jpeg" class="rounded-circle w-25" alt="Mi foto" title="...">
 
-  <!--SOBRE MI-->
-    <section class="sobremi" id="sobremi">     
+    <section class="sobremi" id="sobremi"> 
     <h1 class="heading"><span> Sobre </span> Mi </h1>
-
-    <div class="container">
-      <img src="./WhatsApp Image 2023-03-05 at 13.15.31.jpeg" class="MI FOTO" width="100">
-      <p>Mi nombre es Maria de Lourdes Ortiz Ubeda, soy apasionada por la creación de sitios web. En la actualidad vivo en España. Cuando no está aplicando nuevos trucos para mejorar mis sitios, me podes encontrar viajando o tomando un curso online.</p>
+    <div class="container-sobremi" id="sobremi">
+      <h4>Mi nombre es Maria de Lourdes Ortiz Ubeda, Argentina. Actualmente vivo en España y soy una apasionada por el desarrollo web. Si no estoy capacitandome con un nuevo curso online. Me podes encontrar viajando.</h4>
+      <a src="#">Curriculo Vitae</a>
     </div>
 
-  <!--FORMACION ACADEMICA-->
-    <section class="about" id="about">     
+    <!--FORMACION ACADEMICA-->
+    <section class="about" id="formA"> 
+
     <h1 class="heading"><span> Formacion </span> Academica </h1>
-    <div class="box-container">
-        <div class="box">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>2018<span>
-            <h3>Tecnica Superior en Contabilidad</h3>
-            <h3>ISTEEC (Instituto Superior Técnico de Estudios Económicos de Cuyo)</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
-        </div>
 
-        <div class="box">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>2023<span>
-            <h3>Desarrollador Full Stack</h3>
-            <h3>NUCBA (Centro de aprendizaje a distancia en Buenos Aires)</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
-        </div>
+      <div class="box-container">
+          <div class="box">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>2018<span>
+              <h3>Tecnica Superior en Contabilidad</h3>
+              <h3>ISTEEC (Instituto Superior Técnico de Estudios Económicos de Cuyo)</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
+          </div>
+  
+          <div class="box">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>2023<span>
+              <h3>Desarrollador Full Stack</h3>
+              <h3>NUCBA (Centro de aprendizaje a distancia en Buenos Aires)</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
+          </div>
+  
+          <div class="box">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>2023<span>
+              <h3>Desarrollador Full Stack</h3>
+              <h3>ARGENTINA PROGRAMA</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
+          </div>
+      </div>
 
-        <div class="box">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>2023<span>
-            <h3>Desarrollador Full Stack</h3>
-            <h3>ARGENTINA PROGRAMA</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
-        </div>
-    </div>
-    <!--EXPERIENCIA LABORAL-->
-    <h1 class="heading"><span> Experiencia </span> Laboral </h1>
-    <div class="box-container">
-        <div class="box">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>2009 - 2023<span>
-            <h3>OSEP (Obra social de empleados publicos de Mendoza)</h3>
-            <h3>Direccion de Compras y Suministro</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
-        </div>
-    </div>
+      <!--EXPERIENCIA LABORAL-->
+      <section class="about" id="Exp"> 
+      <h1 class="heading"><span> Experiencia </span> Laboral </h1>
 
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>2009 - 2023<span>
+          <h3>OSEP (Obra social de empleados publicos de Mendoza)</h3>
+          <h3>Direccion de Compras y Suministro</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti ea placeat est alias officiis nostrum fuga accusamus! Sequi vitae, ex assumenda ullam quibusdam reprehenderit quam eveniet eligendi minus fugiat?</p>
+        </div>
+      </div>
+    
+    
     <!--PORTFOLIO-->
     <section class="portfolio" id="portfolio">
+        
     <h1 class="heading"><span> Mi </span> Porfolio </h1>
+            
     <div class="box-container">
-        <div class="box">
-            <img src="./imagenes/cool-round-shaped-futuristic-sci-fi-techno-lights.jpg">
-        </div>
+      <div class="box">
+        <img src="./imagenes/cool-round-shaped-futuristic-sci-fi-techno-lights.jpg">
+      </div>
 
-        <div class="box">
-            <img src="">
-        </div>
+      <div class="box">
+        <img src="">
+      </div>
 
-        <div class="box">
-            <img src="">
-        </div>
+      <div class="box">
+        <img src="">
+      </div>
 
-        <div class="box">
-            <img src="">
-        </div>
+      <div class="box">
+        <img src="">
+      </div>
 
-        <div class="box">
-            <img src="">
-        </div>
+      <div class="box">
+        <img src="">
+      </div>
 
-        <div class="box">
-            <img src="">
-        </div>
+      <div class="box">
+        <img src="">
+      </div>
     </div>
+
     <!--CONTACTO-->
     <section class="contact" id="contacto">
+
     <h1 class="heading"><span>Contacto</span></h1>
-    
-      <form class="form-container">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Motivo</label>
-          <input type="text" class="form-control" placeholder="Motivo" aria-label="First name">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deje su Mensaje"></textarea>
-        </div>
-        <button type="submit" class="btn">ENVIAR</button> 
-      </form>
-  </div>
+
+    <form class="form-container">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Motivo</label>
+        <input type="text" class="form-control" placeholder="Motivo" aria-label="First name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deje su Mensaje"></textarea>
+      </div>
+      <button type="submit" class="btn">ENVIAR</button> 
+    </form>
+  </main>
+ 
   <footer>
   </footer>
   <script src="./Bootstrap/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>

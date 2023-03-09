@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300&family=IBM+Plex+Sans+Condensed&family=Sofia+Sans+Extra+Condensed:wght@100;300&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .navbar{
@@ -44,7 +47,7 @@ html{
 .header{
     width: 100%;
     min-height: 100vh;
-    background-image: url(./workplace-g540483181_1280.jpg);
+    background-image: url(./Imagenes/workplace-g540483181_1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -154,6 +157,33 @@ ul{
     color: black;
 }
 
+/*SOBRE MI*/
+
+.rounded-circle.w-25{
+    width: 12rem !important;
+    position:absolute;
+    z-index: 0;
+    margin-top: -6em;
+    margin-left: 5rem;
+    height: auto;
+    
+}
+
+.container-sobremi{
+    margin-top: 2em;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+}
+.container-sobremi h4{
+    font-size: 1.2rem;
+    color: #DDC1BE;
+}
+
+.sobremi{
+    margin-top: 3rem;
+}
+
 /*FORMACION Y EXPERIENCIA*/
   
 *::selection{
@@ -230,8 +260,8 @@ ul{
 /*PORTFOLIO*/
 
 .portfolio .box-container .box{
-    height: 20rem;
-    width: 26rem;
+    height: 15rem;
+    width: 20rem;
     border-radius: 1rem;
     margin: 2rem;
     overflow: hidden;
@@ -251,7 +281,7 @@ ul{
 /*CONTACTO*/
 
 .form-container{
-    padding-top: 3em;
+    padding-top: 5em;
     padding-left: 20em;
     padding-right: 20em;
     padding-bottom: 3em;
@@ -260,6 +290,9 @@ ul{
 .btn{
     background-color: #DDC1BE;
 }
+
+
+
 
 
     

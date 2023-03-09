@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css" />
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./Imagenes/ap-logo-tr-light (1).png" class="logo ARGENTINA PROGRAMA" width="100">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <i data-bs-toggle="modal" data-bs-target="#logininModal"   class="fa-solid fa-user fa-2x"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>  
+      <section>
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">PERFIL</button>
+            <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">EXPERIENCIA LABORAL</button>
+            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">EDUCACION</button>
+            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">HARD & SOFT SKILLS</button>
+            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">PROYECTOS</button>
+          </div>
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+              <h4>PERFIL</h4>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">FOTO</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">NOMBRE Y APELLIDO</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">TITULO</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">ACERCA DE MI</label>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+            </div>
+           
+            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+              <h4>EXPERIENCIA LABORAL</h4>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">LOGO EMPRESA</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">NOMBRE DE LA EMPRESA</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">TITULO DEL PUESTO</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+                <button type="button" class="btn btn-dark">Guardar</button>
+              </div>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">PERIODO</label>
+                <input class="form-control" type="number" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">DESCRIPCION DE LAS ACTIVIDADES REALIZADAS EN ESE PUESTO</label>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+              <h4>EDUCACION</h4>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">INSTITUTO</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">TITULO</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">PERIODO</label>
+                <input class="form-control" type="number" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">CERTIFICADO</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+              <h4>HARD & SOFT SKILLS</h4>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">DESCRIPCION DE TUS HABILIDADES</label>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+              <h4>PROYECTOS</h4>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">NOMBRE</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">FECHA</label>
+                <input class="form-control" type="number" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">DESCRIPCION DEL PROYECTO</label>
+                <input class="form-control" type="text" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">IMAGEN</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+              <button type="button" class="btn btn-dark">Guardar</button>
+              <div class="mb-3">
+                <label for="basic-url" class="form-label">URL</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+                <button type="button" class="btn btn-dark">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./Bootstrap/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+        
+
