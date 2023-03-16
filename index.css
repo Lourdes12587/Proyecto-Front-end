@@ -6,14 +6,8 @@
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-.navbar{
-    margin-bottom: 0;
-}
-
 body{
     background: #000;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -31,6 +25,33 @@ html{
 
 }
 
+/*NAVBAR*/
+
+.btn:hover{
+    background-color: #DDC1BE;
+    background-color: aqua;
+    color: #000;
+}
+
+/*MODAL*/
+
+.fa-solid{
+    color: #DDC1BE;
+}
+
+.modal-title{
+    color: #DDC1BE;
+}
+.form-label{
+    color: #DDC1BE;
+}
+
+.col-form-label{
+    color: #DDC1BE;
+}
+
+
+/*BANNER*/
 .description-container{
     display: flex;
     flex-direction: row;
@@ -47,7 +68,7 @@ html{
 .header{
     width: 100%;
     min-height: 100vh;
-    background-image: url(./Imagenes/workplace-g540483181_1280.jpg);
+    background-image: url(./assets/Imagenes/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -80,52 +101,6 @@ html{
     }
 }
 
-.text-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 200px 400px 200px 500px;
-    color: black;
-    font-family: "coco";
-}
-
-.img-dog{
-    height: 200px;
-}
-
-.container{
-    max-width: 1170px;
-    margin: auto;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul{
-    list-style: none;
-}
-
-/*MODAL*/
-
-.fa-solid{
-    color: #DDC1BE;
-}
-
-.modal-title{
-    color: #DDC1BE;
-}
-.form-label{
-    color: #DDC1BE;
-}
-
-.col-form-label{
-    color: #DDC1BE;
-}
-
-
-/*BANNER*/
 
 .description-container{
     display: flex;
@@ -155,6 +130,15 @@ ul{
     width: 150%;
     margin-bottom: 20px;
     color: black;
+}
+
+.text-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 400px 200px 500px;
+    color: black;
+    font-family: "coco";
 }
 
 /*SOBRE MI*/
@@ -221,7 +205,7 @@ ul{
     border-left: .2rem solid #fff;
     position: relative;
   
-  }
+}
   
 .about .box-container .box span{
     font-size: 1rem;
@@ -229,19 +213,19 @@ ul{
     color: #fff;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
-  }
+}
   
 .about .box-container .box h3{
     font-size: 1rem;
     color: #fff;
     padding-top: 1.5rem;
-  }
+}
   
 .about .box-container .box p{
     font-size: 1rem;
     color: #eee;
     padding-top: 1rem 0;
-  }
+}
   
 .about .box-container .box i{
     position: absolute;
@@ -255,24 +239,24 @@ ul{
     font-size: 1rem;
     color: #fff;
     background: #DDC1BE;
-  }
+}
   
 /*PORTFOLIO*/
 
 .portfolio .box-container .box{
-    height: 15rem;
+    height: 20rem;
     width: 20rem;
     border-radius: 1rem;
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
-  }
+}
   
 .portfolio .box-container .box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-  }
+}
   
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
@@ -289,6 +273,10 @@ ul{
 
 .btn{
     background-color: #DDC1BE;
+}
+
+.btn:hover{
+    background-color: aqua;
 }
 
 
